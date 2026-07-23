@@ -2,6 +2,7 @@
 addopts = "-q -m 'not lab1'"
 markers = [
   "lab1: acceptance tests for Lab 1; run with pytest -q -m lab1",
+  "lab2: regression tests for Lab 2 security remediation; run with pytest -q -m lab2",
 ]
 testpaths = ["tests"]
 
